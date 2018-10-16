@@ -1,0 +1,56 @@
+BLOXORZ
+-------
+
+This game involves rolling a block along tiles and eventually guiding it into a hole without falling off the map.
+
+MOVEMENT
+--------
+When the block is upright, moving it in any direction makes it fall in that direction.
+When the block is horizontal, moving it along its longer side makes it vertical and moving it along its shorter side makes it roll in that direction, keeping it horizontal.
+
+TILES
+-----
+There are 4 kinds of tiles:
+
+1. Normal tiles - These are GREY in color and are the basic tiles.
+2. Fragile tiles - These are ORANGE in color. The block can only be horizontal on these tiles. Vertical
+					block will make it collapse and the block will fall through.
+3. Switches - They are RED in color. When the block is upright on them, they toggle. When they are ON, 				they activate their corresponding bridge. When they are OFF, the bridge disappears.
+4. Bridges - They are GREEN in color. They are activated by switches. When active, they behave like
+			 normal tiles.
+
+CAMERA VIEWS 
+------------
+Tower view - The map is viewed as if the camera is on top of a tower adjacent to the map.
+Top-Down view - The map is viewed as if the camera is vertically above it.
+Block view - The map is viewed as if the camera is within the block.
+Follow-cam - The camera is always behind the block.
+Helicopter view - The camera is in a helicopter that is circling the map at a height. Height of the helicopter can also be reduced. 
+
+RULES
+-----
+The block has to stay on the map. Else, it falls off and the level restarts.
+
+GOAL
+----
+The goal is to make the block fall into the goal using minimum moves and time.
+
+CONTROLS
+---------
+
+RIGHT ARROW - Move along East
+LEFT ARROW - Move along West
+UP ARROW - Move along North
+DOWN ARROW - Move along South
+1 - Tower view
+2 - Top-down view
+3 - Block view
+4 - Helicopter view
+5 - Follow-cam
+
+In Helicopter view ONLY-
+Click and drag to move helicopter around.
+Scroll up to zoom in and scroll down to zoom out.
+
+
+			

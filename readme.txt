@@ -1,0 +1,4 @@
+Compile:
+make
+Run:
+./blocks
